@@ -1,0 +1,141 @@
+body{
+  margin: 0;
+  background-color: black;
+  font-family: 'Montserrat', sans-serif;
+}
+body::-webkit-scrollbar {
+    display: none;  /* Safari and Chrome */
+}
+h1{
+  font-size: 80px;
+  color: white;
+  word-spacing: 5px;
+}
+h2{
+  font-size: 40px;
+  color: white;
+  word-spacing: 5px;
+}
+p{
+  font-size: 30px;
+  color: white;
+}
+
+a{
+  float: right;
+  color: white;
+  font-size: 20px;
+  padding-right: 60px;
+  text-decoration: none;
+}
+a:hover
+{
+  color:#fff3e4 ;
+  font-size: 25px;
+  transition: 0.6s;
+}
+.navBar
+{
+  background-color: black;
+  padding:5px 0;
+  margin: 30px;
+}
+.heroName
+{
+  float: left;
+  color: white;
+  font-size: 30px;
+  text-decoration: none;
+}
+.heroName:hover
+{
+  font-size: 40px;
+}
+.heroNameOne
+{
+  float: left;
+  color: white;
+  font-size: 30px;
+  text-decoration: none;
+  padding-left: 50px;
+}
+.heroNameOne:hover
+{
+  font-size: 40px;
+}
+
+.insideDiv
+{
+  position: absolute;
+  background-color: #181823;
+  width:55%;
+  height:600px;
+  right:0;
+  padding:10px 200px 100px 200px;
+  margin-top: 10px;
+}
+.Philosophy
+{
+  color: black;
+  background-color: #fff3e4;
+  position: relative;
+  width: 80%;
+  top: 700px;
+  height: 500px;
+  padding: 100px 0 50px 50px;
+}
+.Two{
+  color: black;
+  font-size: 50px;
+}
+.para2
+{
+  width: 80%;
+  color: black;
+  font-size: 30px;
+  letter-spacing: 5;
+  word-spacing: 5px;
+}
+.Skills-Container
+{
+  position: relative;
+  background-color: #181823;
+  width: 80%;
+  height: 500px;
+  top: 700px;
+  left: 20%;
+}
+.contact-me
+{
+  color: black
+  background-color:black;
+  width: 100%;
+  margin: auto;
+  padding:50px 0 30px 0;
+  position: absolute;
+  top: 1900px;;
+
+}
+.one{
+  padding: 10px 0 0 40px;
+  position: absolute;
+  width: 40%;
+  height: 400px;
+  background-color: #181823;
+}
+.para
+{
+  font-size: 25px;
+  color: #6b899c;
+}
+.two{
+  position: absolute;
+  width: 40%;
+  height: 400px;
+  left: 60%;
+}
+.para1
+{
+  font-size: 25px;
+  color: #6b899c;
+}
